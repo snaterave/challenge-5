@@ -19,7 +19,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 This column preview card component project, I tackled the challenge of crafting a visually appealing and functionally preview card using TAILWINDCSS, at the same time, adapting this to a responsive desing using the fundaments of first mobile design.  This challenge allowed me to explore fundamental concepts of design and layout, while also strengthening my TAILWINDCSS and CSS skills within a practical context.
 ### Screenshot
 
-![](./destkop-preview.jpg)
+![](./desktop-preview.jpg)
 
 ### Install
 - Download the files.
@@ -34,7 +34,7 @@ This column preview card component project, I tackled the challenge of crafting 
 ### Links
 
 - Github Repository: [Click here](https://github.com/snaterave/challenge-5)
-- Live Site URL: [Click here](https://65d53c6b2ba2101e9ca08ebd--superb-clafoutis-dd8ace.netlify.app/)
+- Live Site URL: [Click here](https://main--resonant-duckanoo-eb421d.netlify.app/)
 
 
 
