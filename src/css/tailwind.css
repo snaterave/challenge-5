@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card{
+    @apply mx-8 mt-12 mb-12 flex flex-col lg:flex-row lg:mx-0 lg:w-3/5 md:flex-row;
+
+    >:nth-child(1){
+        @apply bg-primary-bright-orange rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:rounded-bl-lg lg:rounded-t-none lg:rounded-tl-lg lg:rounded-bl-lg;
+    }
+    >:nth-child(2){
+        @apply bg-primary-dark-cyan;
+    }
+    >:nth-child(3){
+        @apply bg-primary-very-dark-cyan rounded-b-lg  md:rounded-b-none lg:rounded-b-none md:rounded-tr-lg lg:rounded-tr-lg md:rounded-br-lg lg:rounded-br-lg;
+    }
+
+    button{
+        @apply bg-secundary-transparent-white rounded-full mt-8 lg:mt-20 ;
+    }
+    .principal-tittle{
+        @apply pt-4 text-3xl font-family-primary lg:pt-10;
+    }
+    .description{
+        @apply text-secundary-transparent-white pt-4 lg:pt-10;
+    }
+  
+} 
+    
+    /* Primer div */
+   /* div:nth-child(1){
+        @apply w-full h-3/5 rounded-t-lg bg-cover;
+    }
+
+    /* Segundo div */
+    /*div:nth-child(2){
+        @apply w-full h-2/5 rounded-b-lg px-4 py-2;
+
+    }*/
+
+
+
